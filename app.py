@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Curso Docker/Openshift Caixa Deploy8 SP"
+    return "Curso Docker/Openshift de Brasilia"
 
 if __name__ == '__main__':
     app.run(debug=True,threaded=True,host="0.0.0.0",port=8080) 
